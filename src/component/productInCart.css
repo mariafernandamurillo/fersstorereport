@@ -1,0 +1,43 @@
+.ProductInCart{
+    margin-bottom: 20px;    
+    border: 1px solid #F3F3F3;
+}
+
+
+.a-product-in-cart{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 10px;
+}
+
+.a-product-in-cart:hover{
+    background-color: #F3F3F3;
+}
+
+.product-data{
+    width: 100%;
+}
+
+.product-data label {
+    margin: 0px 10px;
+}
+
+.product-info span{
+    font-weight: 600;
+}
+
+.ProductInCart img{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+/*Resposive*/
+@media(min-width:1014px){
+    .ProductInCart img{
+        width: 250px;
+        height: 250px;
+        margin-left: 150px;
+    }
+}

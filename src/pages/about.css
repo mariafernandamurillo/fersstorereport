@@ -1,0 +1,25 @@
+.about{
+    min-height: 61vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-btn{
+    margin: 10px 5px 30px 5px;
+    height: 33px;
+    width: fit-content;
+    background-color: #FE4543;
+    text-align: center;
+    border-radius: 3px;
+    border: #FE4543 solid 1px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.email-btn:hover{
+    color: #FE4543;
+    background: #FFFFFF;
+    cursor: pointer;
+}

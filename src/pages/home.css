@@ -1,0 +1,32 @@
+.home {
+    min-height: 61vh;
+}
+
+.home h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.code{
+    display: flex;
+    flex-direction: column;
+}
+
+.code :nth-child(1){
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.code :nth-child(2){
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.code :nth-child(3){
+    margin-top: 40px;
+    font-size: 30px;
+    color: #FE4543;
+}

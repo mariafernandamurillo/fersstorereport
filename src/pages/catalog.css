@@ -1,0 +1,21 @@
+h1{
+    color: #FE4543;
+}
+
+.category-btn{
+    margin: 10px 5px 30px 5px;
+    height: 33px;
+    width: auto;
+    background-color: #FE4543;
+    text-align: center;
+    border-radius: 3px;
+    border: #FE4543 solid 1px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.category-btn:hover{
+    color: #FE4543;
+    background: #FFFFFF;
+    cursor: pointer;
+}

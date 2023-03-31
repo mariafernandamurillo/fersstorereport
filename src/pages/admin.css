@@ -1,0 +1,57 @@
+.Admin{
+    min-height: 61vh;
+}
+
+.forms{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+form{
+    height: max-content;
+    width: max-content;
+    padding: 30px;
+    border:1px solid #DFDFDF;
+    border-radius: 5px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.form-new-product{
+    margin-right: 50px;
+}
+
+.form-new-discount{
+    margin-left: 50px;
+}
+
+.product-attribute{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.ip-text{
+    border:1px solid #DFDFDF;
+    border-radius: 2px;
+    height: 25px;
+    margin-top: 5px;
+    width: 250px;
+  }
+
+  .btn-save{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .lbl-subtitle{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }

@@ -1,0 +1,24 @@
+.qt-picker label{
+    display: inline-block;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+.btn-qt{
+    margin-top: 10px;
+    height: 33px;
+    width: 33px;
+    background-color: #FE4543;
+    text-align: center;
+    border-radius: 3px;
+    border: #FE4543 solid 1px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.btn-qt:hover{
+    cursor: pointer;
+    background-color: #F5F5F5;
+    color: #333333;
+}
